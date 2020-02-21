@@ -1,0 +1,93 @@
+h1 {
+    text-align : center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    width: auto;
+    max-width: 500px;
+    background-color: lavender;
+    margin: 16px auto; /*16px - top and bottom auto - left and right*/
+}
+
+nav ul{
+    text-align: center;
+    padding: 0;
+}/*targeting ul in nav*/
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none; /* remove underline for hyperlinks*/
+    display: inline-block;
+    padding: 16px 32px;
+}
+
+nav ul li a:hover, nav ul li a:focus, nav ul li a:active{
+    background-color: rgb(150, 150, 150);
+    color: #fff;
+
+}
+
+section {
+    width : auto;
+    max-width : 600px;
+    margin-left : auto; /* Margin left and right as auto will centre a BLOCK level element!*/
+    margin-right : auto;
+    padding : 16px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+.welcome {
+    width: 100%;
+    height: auto;
+    padding : 16px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-size : 15px;
+    line-height : 1.5;
+    color : rgb(33, 33, 33); /* There are a few ways to do colours... */
+    background-color : #eeeeee;
+  }
+
+input[type=text], select, textarea {
+    width: auto;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  input[type=reset] {
+    background-color: rgb(224, 139, 26);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=reset]:hover {
+    background-color: #283028;
+  }
